@@ -9,17 +9,17 @@ const Navpills = () =>
     <li className={window.location.pathname === "/about" ? "active" : ""}>
       <Link to="/about">About</Link>
     </li>
-    <li className={window.location.pathname === "/blog" ? "active" : ""}>
-      <Link to="/blog">Blog</Link>
+    <li className={window.location.pathname === "/discover" ? "active" : ""}>
+      <Link to="/discover">Blog</Link>
     </li>
-    <li className={window.location.pathname === "/contact" ? "active" : ""}>
-      <Link to="/contact">Contact</Link>
+    <li className={window.location.pathname === "/search" ? "active" : ""}>
+      <Link to="/search">Contact</Link>
     </li>
-    <li
+    {/* <li
       className={window.location.pathname === "/contact/learn" ? "active" : ""}
     >
       <Link to="/contact/learn">Learn</Link>
-    </li>
+    </li> */}
   </ul>;
 
 export default Navpills;

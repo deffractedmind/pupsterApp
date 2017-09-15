@@ -12,8 +12,8 @@ const App = () =>
       <Navpills />
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/blog" component={Blog} />
-      <Route path="/contact" component={Contact} />
+      <Route exact path="/discover" component={Blog} />
+      <Route path="/search" component={Contact} />
     </div>
   </Router>;
 
